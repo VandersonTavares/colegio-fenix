@@ -1,6 +1,6 @@
 import logo from "../../img/logo.png";
 
-import { BsInstagram, BsFacebook } from "react-icons/bs";
+import { BsInstagram, BsFacebook, BsWhatsapp } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -9,15 +9,18 @@ const Navbar = () => {
         <p>Matriculas Abertas!</p>
       </div>
       <div className="main-container flex h-[75px] justify-between items-center px-10 my-1">
-        <div className="socials flex gap-5 mr-7">
+        <div className="socials flex gap-5 ">
           <div className="insta text-gray-500 hover:text-white hover:bg-gradient-to-r hover:from-indigo-500 hover:from-10% hover:via-purple-500 hover:via-30% hover:to-pink-500 to-90% ... hover:rounded-lg px-1 py-1">
             <a href="#"><BsInstagram className="w-auto" size={30}/></a>
           </div>
           <div className="face text-gray-500 hover:rounded-lg hover:bg-[#3b5998] hover:text-white px-1 py-1">
             <a href="#"><BsFacebook className="w-auto" size={30}/></a>
           </div>
+          <div className="face text-gray-500 hover:rounded-lg hover:bg-[#25D366] hover:text-white px-1 py-1">
+            <a href="#"><BsWhatsapp className="w-auto" size={30}/></a>
+          </div>
         </div>
-        <div className="logo w-[250px]">
+        <div className="logo w-[250px] mr-4">
           <a href="#"><img src={logo} alt="colégio fênix" /></a>
         </div>
         <div className="menu">
