@@ -6,7 +6,7 @@ const Noticias = () => {
         <>
         <div className="texture-top h-5" style={{backgroundImage: `url(${TextureTop})`}}></div>
             <section className="noticias">
-                <div className="container">
+                <div className="container mx-auto max-w-6xl border h-[500px] mt-6">
                    <h1>Noticias</h1>
                 </div>
             </section>

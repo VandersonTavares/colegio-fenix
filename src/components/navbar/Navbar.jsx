@@ -9,7 +9,7 @@ const Navbar = () => {
         <p>Matriculas Abertas!</p>
       </div>
       <div className="main-container flex h-[75px] justify-between items-center px-10 my-1">
-        <div className="socials flex gap-5 ">
+        <div className="socials flex gap-5 w-[200px]">
           <div className="insta text-gray-500 hover:text-white hover:bg-gradient-to-r hover:from-indigo-500 hover:from-10% hover:via-purple-500 hover:via-30% hover:to-pink-500 to-90% ... hover:rounded-lg px-1 py-1">
             <a href="#"><BsInstagram className="w-auto" size={30}/></a>
           </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div className="menu">
           <ul>
-            <li className="btn ">
+            <li className="btn w-[200px]">
               <a href="#" className="px-4 py-3 text-[#003a63] hover:bg-[#3b5998] hover:text-white outline outline-offset-1 outline-1 rounded-[15px]">Fazer Matricula</a>
             </li>
           </ul>

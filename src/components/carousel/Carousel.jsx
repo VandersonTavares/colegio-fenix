@@ -44,6 +44,7 @@ const Carousel = () => {
     <div className="texture h-7 mt-[-20px]" style={{backgroundImage: `url(${topTexture})`}}></div>
       <section className="carousel">
         <div className="max-w-[1400px] h-[680px] w-full m-auto py-16 px-4 relative group">
+        <h1 className="text-center font-bold text-[22px] mb-5">GALERIA</h1>
           <div
             style={{
               backgroundImage: `url(${slides[currentIndex].url})`,
