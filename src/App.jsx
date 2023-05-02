@@ -7,6 +7,7 @@ import Carousel from "./components/carousel/Carousel";
 import Noticias from "./components/news/Noticias";
 import Footer from "./components/footer/Footer";
 import Cursos from "./components/courses/Cursos";
+import Valores from "./components/prices/Valores";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="content min-h-screen">
         <Hero />
         <Cursos />
+        <Valores />
         <Diferenciais />
         <Carousel />
         <Noticias />
