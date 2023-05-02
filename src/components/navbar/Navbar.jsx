@@ -11,13 +11,13 @@ const Navbar = () => {
       <div className="main-container flex h-[75px] justify-between items-center px-10 my-1">
         <div className="socials flex gap-5 w-[200px]">
           <div className="insta text-gray-500 hover:text-white hover:bg-gradient-to-r hover:from-indigo-500 hover:from-10% hover:via-purple-500 hover:via-30% hover:to-pink-500 to-90% ... hover:rounded-lg px-1 py-1">
-            <a href="#"><BsInstagram className="w-auto" size={30}/></a>
+            <a href="https://www.instagram.com/colegio.fenixbraz/" target="_blank" rel="noreferrer"><BsInstagram className="w-auto" size={30}/></a>
           </div>
           <div className="face text-gray-500 hover:rounded-lg hover:bg-[#3b5998] hover:text-white px-1 py-1">
             <a href="#"><BsFacebook className="w-auto" size={30}/></a>
           </div>
           <div className="face text-gray-500 hover:rounded-lg hover:bg-[#25D366] hover:text-white px-1 py-1">
-            <a href="#"><BsWhatsapp className="w-auto" size={30}/></a>
+            <a href="https://wa.link/spwqqk" target="_blank" rel="noreferrer"><BsWhatsapp className="w-auto" size={30}/></a>
           </div>
         </div>
         <div className="logo w-[250px] mr-4">

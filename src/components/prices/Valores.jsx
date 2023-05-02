@@ -8,9 +8,10 @@ const Valores = () => {
     ];
     
     return (
-        <section className='valores'>
+        <section className='valores pt-2'>
             <div className="container mx-auto max-w-6xl">
-                <div className="box border">
+                <div className="box">
+                    <h1 className="text-center text-2xl">Nossos Planos</h1>
                     <Card precos={precos}/>
                 </div>
             </div>
