@@ -1,15 +1,19 @@
 import "./App.css";
 
-import Navbar from "./components/navbar/Navbar";
-import Diferenciais from "./components/differentials/Diferenciais";
-import Hero from "./components/hero/Hero";
-import Carousel from "./components/carousel/Carousel";
-import Noticias from "./components/news/Noticias";
-import Footer from "./components/footer/Footer";
-import Cursos from "./components/courses/Cursos";
-import Valores from "./components/prices/Valores";
+import ButtonToTop from "../src/components/ButtonToTop";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Diferenciais from "./sections/Diferenciais";
+import Hero from "./sections/Hero";
+import Carousel from "./sections/Carousel";
+import Noticias from "./sections/Noticias";
+import Cursos from "./sections/Cursos";
+import Valores from "./sections/Valores";
 
 function App() {
+
   return (
     <div className="App">
       <Navbar />
@@ -20,6 +24,7 @@ function App() {
         <Diferenciais />
         <Carousel />
         <Noticias />
+        <ButtonToTop/>
       </div>
       <Footer />
     </div>

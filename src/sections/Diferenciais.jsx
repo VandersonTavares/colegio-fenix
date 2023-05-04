@@ -1,8 +1,8 @@
-import textureTop from "../../img/barra_azulc.png";
+import textureTop from "../img/barra_azulc.png";
 
 const Diferenciais = () => {
   return (
-    <>
+    <section id="diferenciais">
       <div
         className="texture h-5"
         style={{ backgroundImage: `url(${textureTop})` }}
@@ -41,7 +41,7 @@ const Diferenciais = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 };
 

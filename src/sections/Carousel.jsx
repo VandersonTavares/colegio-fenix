@@ -3,7 +3,7 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-import topTexture from "../../img/barra_bco.png";
+import topTexture from "../img/barra_bco.png";
 
 const Carousel = () => {
   const slides = [
@@ -40,7 +40,7 @@ const Carousel = () => {
   };
 
   return (
-    <>
+    <div className="section galeria" id="galeria">
     <div className="texture h-7 mt-[-20px]" style={{backgroundImage: `url(${topTexture})`}}></div>
       <section className="carousel">
         <div className="max-w-[1400px] h-[680px] w-full m-auto py-16 px-4 relative group">
@@ -72,7 +72,7 @@ const Carousel = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

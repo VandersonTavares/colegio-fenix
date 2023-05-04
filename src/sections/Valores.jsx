@@ -1,4 +1,4 @@
-import Card from "../card/Card";
+import Card from "../components/Card";
 const Valores = () => {
 
     const precos = [
@@ -8,7 +8,7 @@ const Valores = () => {
     ];
     
     return (
-        <section className='valores pt-2'>
+        <section className='valores pt-2 border-t-4 mt-8' id="nossos-planos">
             <div className="container mx-auto max-w-6xl">
                 <div className="box">
                     <h1 className="text-center text-2xl">Nossos Planos</h1>
